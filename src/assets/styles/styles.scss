@@ -1,0 +1,63 @@
+@import '../libs/bootstrap-reboot.min.css';
+@import '../fonts/icomoon/style.css';
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  min-width: 280px;
+  background-color: #242b33;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #d4c17f;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+.btn,
+.link {
+  color: #fff;
+  transition: all 0.1s ease-in;
+}
+.link:hover {
+  color: #d4c17f;
+}
+
+.btn:hover {
+  background: #ddcf9b;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
